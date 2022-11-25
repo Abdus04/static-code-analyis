@@ -1,0 +1,289 @@
+<svg width="3438px" height="188px"
+ viewBox="0.00 0.00 3438.43 188.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1.0 1.0) rotate(0.0) translate(4.0 184.0)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-184 3434.43,-184 3434.43,4 -4,4"/>
+<!-- InvocationGraph::writeGraphInDotFile -->
+<g id="node1" class="node">
+<title>InvocationGraph::writeGraphInDotFile</title>
+<ellipse fill="none" stroke="black" cx="3279.64" cy="-90" rx="150.57" ry="18"/>
+<text text-anchor="middle" x="3279.64" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">InvocationGraph::writeGraphInDotFile</text>
+</g>
+<!-- InvocationGraph::graphDot -->
+<g id="node2" class="node">
+<title>InvocationGraph::graphDot</title>
+<ellipse fill="none" stroke="black" cx="3291.64" cy="-18" rx="110.48" ry="18"/>
+<text text-anchor="middle" x="3291.64" y="-14.3" font-family="Times New Roman,serif" font-size="14.00">InvocationGraph::graphDot</text>
+</g>
+<!-- InvocationGraph::writeGraphInDotFile&#45;&gt;InvocationGraph::graphDot -->
+<g id="edge1" class="edge">
+<title>InvocationGraph::writeGraphInDotFile&#45;&gt;InvocationGraph::graphDot</title>
+<path fill="none" stroke="black" d="M3282.61,-71.7C3283.93,-63.98 3285.52,-54.71 3286.99,-46.11"/>
+<polygon fill="black" stroke="black" points="3290.47,-46.55 3288.71,-36.1 3283.57,-45.37 3290.47,-46.55"/>
+</g>
+<!-- Parser::main -->
+<g id="node3" class="node">
+<title>Parser::main</title>
+<ellipse fill="none" stroke="black" cx="1610.64" cy="-162" rx="54.69" ry="18"/>
+<text text-anchor="middle" x="1610.64" y="-158.3" font-family="Times New Roman,serif" font-size="14.00">Parser::main</text>
+</g>
+<!-- Parser::main&#45;&gt;InvocationGraph::writeGraphInDotFile -->
+<g id="edge14" class="edge">
+<title>Parser::main&#45;&gt;InvocationGraph::writeGraphInDotFile</title>
+<path fill="none" stroke="black" d="M1664.97,-160.17C1859.2,-156.96 2537.29,-143.73 3095.64,-108 3116,-106.7 3137.6,-104.99 3158.56,-103.17"/>
+<polygon fill="black" stroke="black" points="3159.14,-106.63 3168.8,-102.26 3158.53,-99.66 3159.14,-106.63"/>
+</g>
+<!-- Parser::listJavaFilesForFolder -->
+<g id="node4" class="node">
+<title>Parser::listJavaFilesForFolder</title>
+<ellipse fill="none" stroke="black" cx="117.64" cy="-90" rx="117.78" ry="18"/>
+<text text-anchor="middle" x="117.64" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">Parser::listJavaFilesForFolder</text>
+</g>
+<!-- Parser::main&#45;&gt;Parser::listJavaFilesForFolder -->
+<g id="edge2" class="edge">
+<title>Parser::main&#45;&gt;Parser::listJavaFilesForFolder</title>
+<path fill="none" stroke="black" d="M1555.98,-160.37C1372.82,-157.93 764.07,-147.19 262.64,-108 246.95,-106.77 230.33,-105.14 214.17,-103.37"/>
+<polygon fill="black" stroke="black" points="214.5,-99.89 204.17,-102.26 213.72,-106.84 214.5,-99.89"/>
+</g>
+<!-- Parser::countLines -->
+<g id="node5" class="node">
+<title>Parser::countLines</title>
+<ellipse fill="none" stroke="black" cx="348.64" cy="-90" rx="77.19" ry="18"/>
+<text text-anchor="middle" x="348.64" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">Parser::countLines</text>
+</g>
+<!-- Parser::main&#45;&gt;Parser::countLines -->
+<g id="edge3" class="edge">
+<title>Parser::main&#45;&gt;Parser::countLines</title>
+<path fill="none" stroke="black" d="M1555.94,-161.4C1387.97,-162.01 864.97,-159.34 435.64,-108 428.31,-107.12 420.67,-105.98 413.1,-104.7"/>
+<polygon fill="black" stroke="black" points="413.67,-101.24 403.21,-102.94 412.44,-108.13 413.67,-101.24"/>
+</g>
+<!-- Parser::parse -->
+<g id="node6" class="node">
+<title>Parser::parse</title>
+<ellipse fill="none" stroke="black" cx="501.64" cy="-90" rx="57.39" ry="18"/>
+<text text-anchor="middle" x="501.64" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">Parser::parse</text>
+</g>
+<!-- Parser::main&#45;&gt;Parser::parse -->
+<g id="edge4" class="edge">
+<title>Parser::main&#45;&gt;Parser::parse</title>
+<path fill="none" stroke="black" d="M1556.38,-159.69C1370.66,-154.96 761.21,-137.54 567.64,-108 562.58,-107.23 557.34,-106.23 552.14,-105.11"/>
+<polygon fill="black" stroke="black" points="552.75,-101.66 542.21,-102.82 551.17,-108.48 552.75,-101.66"/>
+</g>
+<!-- Parser::collectPackageInfo -->
+<g id="node7" class="node">
+<title>Parser::collectPackageInfo</title>
+<ellipse fill="none" stroke="black" cx="683.64" cy="-90" rx="106.68" ry="18"/>
+<text text-anchor="middle" x="683.64" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">Parser::collectPackageInfo</text>
+</g>
+<!-- Parser::main&#45;&gt;Parser::collectPackageInfo -->
+<g id="edge5" class="edge">
+<title>Parser::main&#45;&gt;Parser::collectPackageInfo</title>
+<path fill="none" stroke="black" d="M1556.41,-158.96C1425.85,-153.72 1083.78,-138.06 799.64,-108 789.52,-106.93 778.92,-105.63 768.42,-104.23"/>
+<polygon fill="black" stroke="black" points="768.79,-100.74 758.41,-102.86 767.84,-107.68 768.79,-100.74"/>
+</g>
+<!-- Parser::collectTypeDeclarationInfo -->
+<g id="node8" class="node">
+<title>Parser::collectTypeDeclarationInfo</title>
+<ellipse fill="none" stroke="black" cx="944.64" cy="-90" rx="136.48" ry="18"/>
+<text text-anchor="middle" x="944.64" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">Parser::collectTypeDeclarationInfo</text>
+</g>
+<!-- Parser::main&#45;&gt;Parser::collectTypeDeclarationInfo -->
+<g id="edge6" class="edge">
+<title>Parser::main&#45;&gt;Parser::collectTypeDeclarationInfo</title>
+<path fill="none" stroke="black" d="M1558.85,-156C1465.17,-146.89 1261.36,-126.8 1089.64,-108 1077.51,-106.67 1064.82,-105.24 1052.2,-103.8"/>
+<polygon fill="black" stroke="black" points="1052.45,-100.3 1042.11,-102.64 1051.65,-107.26 1052.45,-100.3"/>
+</g>
+<!-- Parser::collectMethodInfo -->
+<g id="node9" class="node">
+<title>Parser::collectMethodInfo</title>
+<ellipse fill="none" stroke="black" cx="1508.64" cy="-90" rx="104.78" ry="18"/>
+<text text-anchor="middle" x="1508.64" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">Parser::collectMethodInfo</text>
+</g>
+<!-- Parser::main&#45;&gt;Parser::collectMethodInfo -->
+<g id="edge7" class="edge">
+<title>Parser::main&#45;&gt;Parser::collectMethodInfo</title>
+<path fill="none" stroke="black" d="M1588,-145.46C1574.36,-136.1 1556.76,-124.02 1541.59,-113.61"/>
+<polygon fill="black" stroke="black" points="1543.22,-110.49 1532.99,-107.71 1539.26,-116.26 1543.22,-110.49"/>
+</g>
+<!-- Parser::collectMethodInvocationInfo -->
+<g id="node10" class="node">
+<title>Parser::collectMethodInvocationInfo</title>
+<ellipse fill="none" stroke="black" cx="1242.64" cy="-90" rx="143.77" ry="18"/>
+<text text-anchor="middle" x="1242.64" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">Parser::collectMethodInvocationInfo</text>
+</g>
+<!-- Parser::main&#45;&gt;Parser::collectMethodInvocationInfo -->
+<g id="edge8" class="edge">
+<title>Parser::main&#45;&gt;Parser::collectMethodInvocationInfo</title>
+<path fill="none" stroke="black" d="M1564.4,-152.21C1505.31,-140.97 1401.87,-121.29 1328.23,-107.28"/>
+<polygon fill="black" stroke="black" points="1328.52,-103.77 1318.04,-105.34 1327.21,-110.65 1328.52,-103.77"/>
+</g>
+<!-- Parser::sortByValue -->
+<g id="node11" class="node">
+<title>Parser::sortByValue</title>
+<ellipse fill="none" stroke="black" cx="1713.64" cy="-90" rx="82.59" ry="18"/>
+<text text-anchor="middle" x="1713.64" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">Parser::sortByValue</text>
+</g>
+<!-- Parser::main&#45;&gt;Parser::sortByValue -->
+<g id="edge9" class="edge">
+<title>Parser::main&#45;&gt;Parser::sortByValue</title>
+<path fill="none" stroke="black" d="M1633.5,-145.46C1647.5,-135.95 1665.64,-123.62 1681.13,-113.1"/>
+<polygon fill="black" stroke="black" points="1683.11,-115.98 1689.41,-107.47 1679.17,-110.19 1683.11,-115.98"/>
+</g>
+<!-- Parser::topPercentKeys -->
+<g id="node12" class="node">
+<title>Parser::topPercentKeys</title>
+<ellipse fill="none" stroke="black" cx="1909.64" cy="-90" rx="95.58" ry="18"/>
+<text text-anchor="middle" x="1909.64" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">Parser::topPercentKeys</text>
+</g>
+<!-- Parser::main&#45;&gt;Parser::topPercentKeys -->
+<g id="edge10" class="edge">
+<title>Parser::main&#45;&gt;Parser::topPercentKeys</title>
+<path fill="none" stroke="black" d="M1653.8,-150.9C1703.18,-139.34 1784.65,-120.26 1842.38,-106.75"/>
+<polygon fill="black" stroke="black" points="1843.21,-110.15 1852.14,-104.46 1841.61,-103.33 1843.21,-110.15"/>
+</g>
+<!-- Parser::projectLines -->
+<g id="node13" class="node">
+<title>Parser::projectLines</title>
+<ellipse fill="none" stroke="black" cx="2105.64" cy="-90" rx="82.59" ry="18"/>
+<text text-anchor="middle" x="2105.64" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">Parser::projectLines</text>
+</g>
+<!-- Parser::main&#45;&gt;Parser::projectLines -->
+<g id="edge11" class="edge">
+<title>Parser::main&#45;&gt;Parser::projectLines</title>
+<path fill="none" stroke="black" d="M1661.47,-155.23C1738.18,-146.32 1888.01,-128.12 2014.64,-108 2021.62,-106.89 2028.9,-105.66 2036.15,-104.38"/>
+<polygon fill="black" stroke="black" points="2036.77,-107.83 2046,-102.62 2035.54,-100.94 2036.77,-107.83"/>
+</g>
+<!-- Parser::mapAverage -->
+<g id="node14" class="node">
+<title>Parser::mapAverage</title>
+<ellipse fill="none" stroke="black" cx="2289.64" cy="-90" rx="83.39" ry="18"/>
+<text text-anchor="middle" x="2289.64" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">Parser::mapAverage</text>
+</g>
+<!-- Parser::main&#45;&gt;Parser::mapAverage -->
+<g id="edge12" class="edge">
+<title>Parser::main&#45;&gt;Parser::mapAverage</title>
+<path fill="none" stroke="black" d="M1663.84,-157.85C1767.1,-151.38 2001.73,-134.89 2197.64,-108 2205.02,-106.99 2212.72,-105.79 2220.37,-104.51"/>
+<polygon fill="black" stroke="black" points="2221.12,-107.93 2230.38,-102.78 2219.93,-101.03 2221.12,-107.93"/>
+</g>
+<!-- Parser::keysAboveX -->
+<g id="node15" class="node">
+<title>Parser::keysAboveX</title>
+<ellipse fill="none" stroke="black" cx="2475.64" cy="-90" rx="85.29" ry="18"/>
+<text text-anchor="middle" x="2475.64" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">Parser::keysAboveX</text>
+</g>
+<!-- Parser::main&#45;&gt;Parser::keysAboveX -->
+<g id="edge13" class="edge">
+<title>Parser::main&#45;&gt;Parser::keysAboveX</title>
+<path fill="none" stroke="black" d="M1665.05,-159.32C1791.35,-154.98 2114.02,-141.29 2381.64,-108 2389.54,-107.02 2397.78,-105.81 2405.95,-104.49"/>
+<polygon fill="black" stroke="black" points="2406.58,-107.93 2415.87,-102.83 2405.43,-101.03 2406.58,-107.93"/>
+</g>
+<!-- InvocationGraph::convertDotToSVG -->
+<g id="node16" class="node">
+<title>InvocationGraph::convertDotToSVG</title>
+<ellipse fill="none" stroke="black" cx="2724.64" cy="-90" rx="146.47" ry="18"/>
+<text text-anchor="middle" x="2724.64" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">InvocationGraph::convertDotToSVG</text>
+</g>
+<!-- Parser::main&#45;&gt;InvocationGraph::convertDotToSVG -->
+<g id="edge15" class="edge">
+<title>Parser::main&#45;&gt;InvocationGraph::convertDotToSVG</title>
+<path fill="none" stroke="black" d="M1664.52,-159.04C1810.43,-153.53 2225.43,-136.37 2569.64,-108 2583.67,-106.84 2598.39,-105.46 2612.95,-103.98"/>
+<polygon fill="black" stroke="black" points="2613.41,-107.45 2623,-102.94 2612.69,-100.49 2613.41,-107.45"/>
+</g>
+<!-- Parser::listJavaFilesForFolder&#45;&gt;Parser::listJavaFilesForFolder -->
+<g id="edge16" class="edge">
+<title>Parser::listJavaFilesForFolder&#45;&gt;Parser::listJavaFilesForFolder</title>
+<path fill="none" stroke="black" d="M196.04,-103.43C227.19,-104.14 253.28,-99.67 253.28,-90 253.28,-81.39 232.59,-76.9 206.05,-76.53"/>
+<polygon fill="black" stroke="black" points="206.02,-73.03 196.04,-76.57 206.05,-80.03 206.02,-73.03"/>
+</g>
+<!-- PackageDeclarationVisitor::getPackages -->
+<g id="node17" class="node">
+<title>PackageDeclarationVisitor::getPackages</title>
+<ellipse fill="none" stroke="black" cx="637.64" cy="-18" rx="155.17" ry="18"/>
+<text text-anchor="middle" x="637.64" y="-14.3" font-family="Times New Roman,serif" font-size="14.00">PackageDeclarationVisitor::getPackages</text>
+</g>
+<!-- Parser::collectPackageInfo&#45;&gt;PackageDeclarationVisitor::getPackages -->
+<g id="edge17" class="edge">
+<title>Parser::collectPackageInfo&#45;&gt;PackageDeclarationVisitor::getPackages</title>
+<path fill="none" stroke="black" d="M672.5,-72.05C667.1,-63.84 660.5,-53.79 654.5,-44.66"/>
+<polygon fill="black" stroke="black" points="657.41,-42.71 648.99,-36.28 651.56,-46.55 657.41,-42.71"/>
+</g>
+<!-- TypeDeclarationVisitor::getTypes -->
+<g id="node18" class="node">
+<title>TypeDeclarationVisitor::getTypes</title>
+<ellipse fill="none" stroke="black" cx="943.64" cy="-18" rx="132.68" ry="18"/>
+<text text-anchor="middle" x="943.64" y="-14.3" font-family="Times New Roman,serif" font-size="14.00">TypeDeclarationVisitor::getTypes</text>
+</g>
+<!-- Parser::collectTypeDeclarationInfo&#45;&gt;TypeDeclarationVisitor::getTypes -->
+<g id="edge18" class="edge">
+<title>Parser::collectTypeDeclarationInfo&#45;&gt;TypeDeclarationVisitor::getTypes</title>
+<path fill="none" stroke="black" d="M944.39,-71.7C944.28,-63.98 944.15,-54.71 944.03,-46.11"/>
+<polygon fill="black" stroke="black" points="947.53,-46.05 943.88,-36.1 940.53,-46.15 947.53,-46.05"/>
+</g>
+<!-- MethodDeclarationVisitor::getMethods -->
+<g id="node19" class="node">
+<title>MethodDeclarationVisitor::getMethods</title>
+<ellipse fill="none" stroke="black" cx="1799.64" cy="-18" rx="151.37" ry="18"/>
+<text text-anchor="middle" x="1799.64" y="-14.3" font-family="Times New Roman,serif" font-size="14.00">MethodDeclarationVisitor::getMethods</text>
+</g>
+<!-- Parser::collectMethodInfo&#45;&gt;MethodDeclarationVisitor::getMethods -->
+<g id="edge19" class="edge">
+<title>Parser::collectMethodInfo&#45;&gt;MethodDeclarationVisitor::getMethods</title>
+<path fill="none" stroke="black" d="M1566.83,-75C1612.53,-64.01 1676.46,-48.63 1725.77,-36.77"/>
+<polygon fill="black" stroke="black" points="1726.84,-40.11 1735.74,-34.37 1725.2,-33.31 1726.84,-40.11"/>
+</g>
+<!-- Parser::collectMethodInvocationInfo&#45;&gt;MethodDeclarationVisitor::getMethods -->
+<g id="edge20" class="edge">
+<title>Parser::collectMethodInvocationInfo&#45;&gt;MethodDeclarationVisitor::getMethods</title>
+<path fill="none" stroke="black" d="M1340.3,-76.73C1437.98,-64.45 1587.95,-45.6 1689.74,-32.81"/>
+<polygon fill="black" stroke="black" points="1690.26,-36.27 1699.74,-31.55 1689.38,-29.33 1690.26,-36.27"/>
+</g>
+<!-- MethodInvocationVisitor::getMethods -->
+<g id="node20" class="node">
+<title>MethodInvocationVisitor::getMethods</title>
+<ellipse fill="none" stroke="black" cx="1242.64" cy="-18" rx="148.67" ry="18"/>
+<text text-anchor="middle" x="1242.64" y="-14.3" font-family="Times New Roman,serif" font-size="14.00">MethodInvocationVisitor::getMethods</text>
+</g>
+<!-- Parser::collectMethodInvocationInfo&#45;&gt;MethodInvocationVisitor::getMethods -->
+<g id="edge21" class="edge">
+<title>Parser::collectMethodInvocationInfo&#45;&gt;MethodInvocationVisitor::getMethods</title>
+<path fill="none" stroke="black" d="M1242.64,-71.7C1242.64,-63.98 1242.64,-54.71 1242.64,-46.11"/>
+<polygon fill="black" stroke="black" points="1246.14,-46.1 1242.64,-36.1 1239.14,-46.1 1246.14,-46.1"/>
+</g>
+<!-- InvocationGraph::addInvoc -->
+<g id="node21" class="node">
+<title>InvocationGraph::addInvoc</title>
+<ellipse fill="none" stroke="black" cx="1519.64" cy="-18" rx="110.48" ry="18"/>
+<text text-anchor="middle" x="1519.64" y="-14.3" font-family="Times New Roman,serif" font-size="14.00">InvocationGraph::addInvoc</text>
+</g>
+<!-- Parser::collectMethodInvocationInfo&#45;&gt;InvocationGraph::addInvoc -->
+<g id="edge22" class="edge">
+<title>Parser::collectMethodInvocationInfo&#45;&gt;InvocationGraph::addInvoc</title>
+<path fill="none" stroke="black" d="M1303.43,-73.64C1347.49,-62.5 1407.08,-47.45 1452.54,-35.96"/>
+<polygon fill="black" stroke="black" points="1453.47,-39.33 1462.3,-33.49 1451.75,-32.55 1453.47,-39.33"/>
+</g>
+<!-- Parser::printVariableInfo -->
+<g id="node22" class="node">
+<title>Parser::printVariableInfo</title>
+<ellipse fill="none" stroke="black" cx="2987.64" cy="-90" rx="98.58" ry="18"/>
+<text text-anchor="middle" x="2987.64" y="-86.3" font-family="Times New Roman,serif" font-size="14.00">Parser::printVariableInfo</text>
+</g>
+<!-- Parser::printVariableInfo&#45;&gt;MethodDeclarationVisitor::getMethods -->
+<g id="edge23" class="edge">
+<title>Parser::printVariableInfo&#45;&gt;MethodDeclarationVisitor::getMethods</title>
+<path fill="none" stroke="black" d="M2918.94,-77.06C2905.92,-75.11 2892.38,-73.31 2879.64,-72 2553.75,-38.45 2170.28,-26.01 1959.18,-21.49"/>
+<polygon fill="black" stroke="black" points="1959.02,-17.99 1948.95,-21.28 1958.88,-24.99 1959.02,-17.99"/>
+</g>
+<!-- VariableDeclarationFragmentVisitor::getVariables -->
+<g id="node23" class="node">
+<title>VariableDeclarationFragmentVisitor::getVariables</title>
+<ellipse fill="none" stroke="black" cx="2974.64" cy="-18" rx="188.47" ry="18"/>
+<text text-anchor="middle" x="2974.64" y="-14.3" font-family="Times New Roman,serif" font-size="14.00">VariableDeclarationFragmentVisitor::getVariables</text>
+</g>
+<!-- Parser::printVariableInfo&#45;&gt;VariableDeclarationFragmentVisitor::getVariables -->
+<g id="edge24" class="edge">
+<title>Parser::printVariableInfo&#45;&gt;VariableDeclarationFragmentVisitor::getVariables</title>
+<path fill="none" stroke="black" d="M2984.43,-71.7C2982.99,-63.98 2981.27,-54.71 2979.67,-46.11"/>
+<polygon fill="black" stroke="black" points="2983.08,-45.3 2977.82,-36.1 2976.2,-46.58 2983.08,-45.3"/>
+</g>
+</g>
+</svg>
